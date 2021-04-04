@@ -1,0 +1,967 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-04-04">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="sex" type="string" />
+      <attribute id="1" title="city" type="string" />
+      <attribute id="2" title="universities" type="string" />
+      <attribute id="3" title="schools" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Фёдор Гара" label="Фёдор Гара">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="НИУ ВШЭ (ГУ-ВШЭ)" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Катерина Ложенко" label="Катерина Ложенко">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Лицей № 654" />
+        </attvalues>
+      </node>
+      <node id="Антон Алышев" label="Антон Алышев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа № 1411" />
+        </attvalues>
+      </node>
+      <node id="Леон Луканин" label="Леон Луканин">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Tokyo" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Илья Филатов" label="Илья Филатов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Максим Новосельцев" label="Максим Новосельцев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Лицей №1 им. Н. К. Крупской" />
+        </attvalues>
+      </node>
+      <node id="Артём Асташев" label="Артём Асташев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 17" />
+        </attvalues>
+      </node>
+      <node id="Артём Ерёменко" label="Артём Ерёменко">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Краснодар" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Гимназия № 23" />
+        </attvalues>
+      </node>
+      <node id="Лиза Чернышова" label="Лиза Чернышова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="МГУ" />
+          <attvalue for="3" value="Школа № 281" />
+        </attvalues>
+      </node>
+      <node id="Настя Захарчук" label="Настя Захарчук">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа №12" />
+        </attvalues>
+      </node>
+      <node id="Заур Омаров" label="Заур Омаров">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Гимназия № 6" />
+        </attvalues>
+      </node>
+      <node id="София Бурцева" label="София Бурцева">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Фрязино" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа №1" />
+        </attvalues>
+      </node>
+      <node id="Анастасия Буря" label="Анастасия Буря">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Домодедово" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Алексей Тиганов" label="Алексей Тиганов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Инженерная школа № 1581 (при МГТУ им. Баумана)" />
+        </attvalues>
+      </node>
+      <node id="Виктория Брискова" label="Виктория Брискова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа № 875" />
+        </attvalues>
+      </node>
+      <node id="Александр Китаев" label="Александр Китаев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Лицей № 97" />
+        </attvalues>
+      </node>
+      <node id="Эльвира Абзялова" label="Эльвира Абзялова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="Институт бизнеса и дизайна (бывш. ИнОБО)" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Александра Олейник" label="Александра Олейник">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РГСУ" />
+          <attvalue for="3" value="Лицей № 3" />
+        </attvalues>
+      </node>
+      <node id="Michael Safir" label="Michael Safir">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Гимназия №1531 (бывш. шк. 21 специальная, 1217)" />
+        </attvalues>
+      </node>
+      <node id="Иван Резнов" label="Иван Резнов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа № 121" />
+        </attvalues>
+      </node>
+      <node id="Владислава Ломакина" label="Владислава Ломакина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Azizjon Mavlonov" label="Azizjon Mavlonov">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Исфара" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Павел Фадеев" label="Павел Фадеев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Денис Голышев" label="Денис Голышев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="МГОУ им. Черномырдина (ныне в сост. МАМИ) (бывш. ВЗПИ)" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Никита Хованский" label="Никита Хованский">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Ступино" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Герман Павлов" label="Герман Павлов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="МГТУ «Станкин»" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Павел Прокопьев" label="Павел Прокопьев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Егор Мишин" label="Егор Мишин">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РАНХиГС при Президенте РФ (АНХ при Правительстве РФ, РАГС при Президенте РФ)" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Алина Никитина" label="Алина Никитина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="МГУПИ (КФ)" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Антон Климов" label="Антон Климов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="Catholic Theological Union" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Аня Борисова" label="Аня Борисова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Андрей Квасов" label="Андрей Квасов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Александр Косицын" label="Александр Косицын">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Андрей Минаев" label="Андрей Минаев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Илья Мишин" label="Илья Мишин">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 7" />
+        </attvalues>
+      </node>
+      <node id="Евгения Маклагина" label="Евгения Маклагина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Тимур Юсубов" label="Тимур Юсубов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Builder Mystain" label="Builder Mystain">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Юрий Михайлов" label="Юрий Михайлов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Лобня" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа №15" />
+        </attvalues>
+      </node>
+      <node id="Артём Ахрамеев" label="Артём Ахрамеев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Дарья Колыхалова" label="Дарья Колыхалова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Иван Мурашов" label="Иван Мурашов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Мурманск" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Андрей Коэн" label="Андрей Коэн">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РТУ МИРЭА" />
+          <attvalue for="3" value="Школа № 17" />
+        </attvalues>
+      </node>
+      <node id="Хотамжон Мирзаев" label="Хотамжон Мирзаев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Одинцово" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Екатерина Благовещенская" label="Екатерина Благовещенская">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа №4" />
+        </attvalues>
+      </node>
+      <node id="Алла Ким" label="Алла Ким">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Глеб Голиков" label="Глеб Голиков">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Настя Флёрова" label="Настя Флёрова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Влад Коротков" label="Влад Коротков">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="МГТУ ГА" />
+          <attvalue for="3" value="Школа № 7" />
+        </attvalues>
+      </node>
+      <node id="Денис Клименко" label="Денис Клименко">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Алексей Крайс" label="Алексей Крайс">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="SAE Institute" />
+        </attvalues>
+      </node>
+      <node id="Илья Зубков" label="Илья Зубков">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Данила Бараняк" label="Данила Бараняк">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Санкт-Петербург" />
+          <attvalue for="2" value="СПбГЭТУ (ЛЭТИ)" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Евгений Найденов" label="Евгений Найденов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Oksana Burova" label="Oksana Burova">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="СФ МФЮА" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Карина Афанасьева" label="Карина Афанасьева">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Андрей Шершнёв" label="Андрей Шершнёв">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Дима Жмыхов" label="Дима Жмыхов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Иван Герасимов" label="Иван Герасимов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Вадим Давыдов" label="Вадим Давыдов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 7" />
+        </attvalues>
+      </node>
+      <node id="Анастасия Трошина" label="Анастасия Трошина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="МФЮА (СФ)" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Виктория Мухина" label="Виктория Мухина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Оксана Маклагина" label="Оксана Маклагина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Varvara Vanina" label="Varvara Vanina">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Аркадий Елин" label="Аркадий Елин">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Мария Колеватова" label="Мария Колеватова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 179 (бывш. шк. 179 МИОО)" />
+        </attvalues>
+      </node>
+      <node id="Мария Прошина" label="Мария Прошина">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Школа № 2063 (бывш. шк. 1)" />
+        </attvalues>
+      </node>
+      <node id="Рубен Карамян" label="Рубен Карамян">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Гимназия № 18" />
+        </attvalues>
+      </node>
+      <node id="Петя Артамонов" label="Петя Артамонов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Борис Зудин" label="Борис Зудин">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="РУДН" />
+          <attvalue for="3" value="Гимназия №1530 «Школа Ломоносова»" />
+        </attvalues>
+      </node>
+      <node id="Алёна Меркулова" label="Алёна Меркулова">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Глеб Кучумов" label="Глеб Кучумов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+      <node id="Михаил Башкин" label="Михаил Башкин">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Кашира" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Олег Маслов" label="Олег Маслов">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Москва" />
+          <attvalue for="2" value="-1" />
+          <attvalue for="3" value="Школа № 2007" />
+        </attvalues>
+      </node>
+      <node id="Иван Беляев" label="Иван Беляев">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="-1" />
+          <attvalue for="2" value="СФ МАИ (СФ МАТИ - РГТУ им. К. Э. Циолковского)" />
+          <attvalue for="3" value="Школа № 4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Фёдор Гара" target="Катерина Ложенко" />
+      <edge id="1" source="Катерина Ложенко" target="Мария Колеватова" />
+      <edge id="2" source="Катерина Ложенко" target="София Бурцева" />
+      <edge id="3" source="Катерина Ложенко" target="Олег Маслов" />
+      <edge id="4" source="Катерина Ложенко" target="Рубен Карамян" />
+      <edge id="5" source="Катерина Ложенко" target="Michael Safir" />
+      <edge id="6" source="Катерина Ложенко" target="Иван Резнов" />
+      <edge id="7" source="Катерина Ложенко" target="Петя Артамонов" />
+      <edge id="8" source="Антон Алышев" target="Леон Луканин" />
+      <edge id="9" source="Антон Алышев" target="Илья Филатов" />
+      <edge id="10" source="Антон Алышев" target="Максим Новосельцев" />
+      <edge id="11" source="Антон Алышев" target="Артём Асташев" />
+      <edge id="12" source="Антон Алышев" target="Артём Ерёменко" />
+      <edge id="13" source="Антон Алышев" target="Лиза Чернышова" />
+      <edge id="14" source="Антон Алышев" target="Настя Захарчук" />
+      <edge id="15" source="Антон Алышев" target="Заур Омаров" />
+      <edge id="16" source="Антон Алышев" target="София Бурцева" />
+      <edge id="17" source="Антон Алышев" target="Анастасия Буря" />
+      <edge id="18" source="Антон Алышев" target="Алексей Тиганов" />
+      <edge id="19" source="Антон Алышев" target="Виктория Брискова" />
+      <edge id="20" source="Антон Алышев" target="Александр Китаев" />
+      <edge id="21" source="Антон Алышев" target="Эльвира Абзялова" />
+      <edge id="22" source="Антон Алышев" target="Александра Олейник" />
+      <edge id="23" source="Антон Алышев" target="Michael Safir" />
+      <edge id="24" source="Антон Алышев" target="Иван Резнов" />
+      <edge id="25" source="Антон Алышев" target="Владислава Ломакина" />
+      <edge id="26" source="Антон Алышев" target="Azizjon Mavlonov" />
+      <edge id="27" source="Антон Алышев" target="Павел Фадеев" />
+      <edge id="28" source="Леон Луканин" target="Илья Филатов" />
+      <edge id="29" source="Леон Луканин" target="Артём Асташев" />
+      <edge id="30" source="Леон Луканин" target="Алексей Тиганов" />
+      <edge id="31" source="Леон Луканин" target="Эльвира Абзялова" />
+      <edge id="32" source="Леон Луканин" target="Builder Mystain" />
+      <edge id="33" source="Илья Филатов" target="Артём Асташев" />
+      <edge id="34" source="Илья Филатов" target="Дарья Колыхалова" />
+      <edge id="35" source="Илья Филатов" target="Иван Мурашов" />
+      <edge id="36" source="Илья Филатов" target="Алексей Тиганов" />
+      <edge id="37" source="Илья Филатов" target="Эльвира Абзялова" />
+      <edge id="38" source="Илья Филатов" target="Андрей Коэн" />
+      <edge id="39" source="Илья Филатов" target="Александра Олейник" />
+      <edge id="40" source="Илья Филатов" target="Иван Резнов" />
+      <edge id="41" source="Илья Филатов" target="Builder Mystain" />
+      <edge id="42" source="Максим Новосельцев" target="Артём Ерёменко" />
+      <edge id="43" source="Максим Новосельцев" target="Лиза Чернышова" />
+      <edge id="44" source="Максим Новосельцев" target="Настя Захарчук" />
+      <edge id="45" source="Максим Новосельцев" target="Заур Омаров" />
+      <edge id="46" source="Максим Новосельцев" target="София Бурцева" />
+      <edge id="47" source="Максим Новосельцев" target="Анастасия Буря" />
+      <edge id="48" source="Максим Новосельцев" target="Алексей Тиганов" />
+      <edge id="49" source="Максим Новосельцев" target="Виктория Брискова" />
+      <edge id="50" source="Максим Новосельцев" target="Хотамжон Мирзаев" />
+      <edge id="51" source="Максим Новосельцев" target="Александр Китаев" />
+      <edge id="52" source="Максим Новосельцев" target="Екатерина Благовещенская" />
+      <edge id="53" source="Максим Новосельцев" target="Алла Ким" />
+      <edge id="54" source="Максим Новосельцев" target="Michael Safir" />
+      <edge id="55" source="Максим Новосельцев" target="Владислава Ломакина" />
+      <edge id="56" source="Максим Новосельцев" target="Azizjon Mavlonov" />
+      <edge id="57" source="Артём Асташев" target="Дарья Колыхалова" />
+      <edge id="58" source="Артём Асташев" target="Иван Мурашов" />
+      <edge id="59" source="Артём Асташев" target="Алексей Тиганов" />
+      <edge id="60" source="Артём Асташев" target="Эльвира Абзялова" />
+      <edge id="61" source="Артём Асташев" target="Андрей Коэн" />
+      <edge id="62" source="Артём Асташев" target="Иван Резнов" />
+      <edge id="63" source="Артём Асташев" target="Builder Mystain" />
+      <edge id="64" source="Артём Ерёменко" target="Лиза Чернышова" />
+      <edge id="65" source="Артём Ерёменко" target="Настя Захарчук" />
+      <edge id="66" source="Артём Ерёменко" target="Заур Омаров" />
+      <edge id="67" source="Артём Ерёменко" target="София Бурцева" />
+      <edge id="68" source="Артём Ерёменко" target="Анастасия Буря" />
+      <edge id="69" source="Артём Ерёменко" target="Алексей Тиганов" />
+      <edge id="70" source="Артём Ерёменко" target="Хотамжон Мирзаев" />
+      <edge id="71" source="Артём Ерёменко" target="Александр Китаев" />
+      <edge id="72" source="Артём Ерёменко" target="Екатерина Благовещенская" />
+      <edge id="73" source="Артём Ерёменко" target="Алла Ким" />
+      <edge id="74" source="Артём Ерёменко" target="Владислава Ломакина" />
+      <edge id="75" source="Артём Ерёменко" target="Azizjon Mavlonov" />
+      <edge id="76" source="Артём Ерёменко" target="Павел Фадеев" />
+      <edge id="77" source="Лиза Чернышова" target="Настя Захарчук" />
+      <edge id="78" source="Лиза Чернышова" target="Заур Омаров" />
+      <edge id="79" source="Лиза Чернышова" target="Мария Прошина" />
+      <edge id="80" source="Лиза Чернышова" target="София Бурцева" />
+      <edge id="81" source="Лиза Чернышова" target="Алексей Тиганов" />
+      <edge id="82" source="Лиза Чернышова" target="Виктория Брискова" />
+      <edge id="83" source="Лиза Чернышова" target="Хотамжон Мирзаев" />
+      <edge id="84" source="Лиза Чернышова" target="Александр Китаев" />
+      <edge id="85" source="Лиза Чернышова" target="Алла Ким" />
+      <edge id="86" source="Лиза Чернышова" target="Иван Резнов" />
+      <edge id="87" source="Лиза Чернышова" target="Владислава Ломакина" />
+      <edge id="88" source="Лиза Чернышова" target="Azizjon Mavlonov" />
+      <edge id="89" source="Настя Захарчук" target="Заур Омаров" />
+      <edge id="90" source="Настя Захарчук" target="София Бурцева" />
+      <edge id="91" source="Настя Захарчук" target="Анастасия Буря" />
+      <edge id="92" source="Настя Захарчук" target="Алексей Тиганов" />
+      <edge id="93" source="Настя Захарчук" target="Виктория Брискова" />
+      <edge id="94" source="Настя Захарчук" target="Александр Китаев" />
+      <edge id="95" source="Настя Захарчук" target="Борис Зудин" />
+      <edge id="96" source="Настя Захарчук" target="Алла Ким" />
+      <edge id="97" source="Настя Захарчук" target="Michael Safir" />
+      <edge id="98" source="Настя Захарчук" target="Владислава Ломакина" />
+      <edge id="99" source="Настя Захарчук" target="Azizjon Mavlonov" />
+      <edge id="100" source="Заур Омаров" target="Виктория Брискова" />
+      <edge id="101" source="Заур Омаров" target="Александр Китаев" />
+      <edge id="102" source="Заур Омаров" target="Алла Ким" />
+      <edge id="103" source="Заур Омаров" target="Владислава Ломакина" />
+      <edge id="104" source="Заур Омаров" target="Azizjon Mavlonov" />
+      <edge id="105" source="София Бурцева" target="Юрий Михайлов" />
+      <edge id="106" source="София Бурцева" target="Мария Прошина" />
+      <edge id="107" source="София Бурцева" target="Анастасия Буря" />
+      <edge id="108" source="София Бурцева" target="Алексей Тиганов" />
+      <edge id="109" source="София Бурцева" target="Виктория Брискова" />
+      <edge id="110" source="София Бурцева" target="Екатерина Благовещенская" />
+      <edge id="111" source="София Бурцева" target="Иван Резнов" />
+      <edge id="112" source="София Бурцева" target="Владислава Ломакина" />
+      <edge id="113" source="Анастасия Буря" target="Алексей Тиганов" />
+      <edge id="114" source="Анастасия Буря" target="Michael Safir" />
+      <edge id="115" source="Анастасия Буря" target="Владислава Ломакина" />
+      <edge id="116" source="Алексей Тиганов" target="Дарья Колыхалова" />
+      <edge id="117" source="Алексей Тиганов" target="Виктория Брискова" />
+      <edge id="118" source="Алексей Тиганов" target="Эльвира Абзялова" />
+      <edge id="119" source="Алексей Тиганов" target="Андрей Коэн" />
+      <edge id="120" source="Алексей Тиганов" target="Иван Резнов" />
+      <edge id="121" source="Алексей Тиганов" target="Владислава Ломакина" />
+      <edge id="122" source="Алексей Тиганов" target="Azizjon Mavlonov" />
+      <edge id="123" source="Алексей Тиганов" target="Builder Mystain" />
+      <edge id="124" source="Виктория Брискова" target="Александр Китаев" />
+      <edge id="125" source="Виктория Брискова" target="Алла Ким" />
+      <edge id="126" source="Виктория Брискова" target="Владислава Ломакина" />
+      <edge id="127" source="Виктория Брискова" target="Azizjon Mavlonov" />
+      <edge id="128" source="Александр Китаев" target="Алла Ким" />
+      <edge id="129" source="Александр Китаев" target="Владислава Ломакина" />
+      <edge id="130" source="Александр Китаев" target="Azizjon Mavlonov" />
+      <edge id="131" source="Эльвира Абзялова" target="Дарья Колыхалова" />
+      <edge id="132" source="Эльвира Абзялова" target="Александра Олейник" />
+      <edge id="133" source="Эльвира Абзялова" target="Builder Mystain" />
+      <edge id="134" source="Michael Safir" target="Мария Колеватова" />
+      <edge id="135" source="Michael Safir" target="Борис Зудин" />
+      <edge id="136" source="Michael Safir" target="Рубен Карамян" />
+      <edge id="137" source="Michael Safir" target="Иван Резнов" />
+      <edge id="138" source="Иван Резнов" target="Юрий Михайлов" />
+      <edge id="139" source="Иван Резнов" target="Мария Прошина" />
+      <edge id="140" source="Иван Резнов" target="Хотамжон Мирзаев" />
+      <edge id="141" source="Иван Резнов" target="Борис Зудин" />
+      <edge id="142" source="Иван Резнов" target="Рубен Карамян" />
+      <edge id="143" source="Иван Резнов" target="Екатерина Благовещенская" />
+      <edge id="144" source="Иван Резнов" target="Azizjon Mavlonov" />
+      <edge id="145" source="Иван Резнов" target="Петя Артамонов" />
+      <edge id="146" source="Владислава Ломакина" target="Мария Колеватова" />
+      <edge id="147" source="Владислава Ломакина" target="Мария Прошина" />
+      <edge id="148" source="Владислава Ломакина" target="Борис Зудин" />
+      <edge id="149" source="Владислава Ломакина" target="Рубен Карамян" />
+      <edge id="150" source="Владислава Ломакина" target="Алла Ким" />
+      <edge id="151" source="Владислава Ломакина" target="Azizjon Mavlonov" />
+      <edge id="152" source="Azizjon Mavlonov" target="Хотамжон Мирзаев" />
+      <edge id="153" source="Azizjon Mavlonov" target="Алла Ким" />
+      <edge id="154" source="Павел Фадеев" target="Алла Ким" />
+      <edge id="155" source="Денис Голышев" target="Никита Хованский" />
+      <edge id="156" source="Денис Голышев" target="Герман Павлов" />
+      <edge id="157" source="Денис Голышев" target="Павел Прокопьев" />
+      <edge id="158" source="Денис Голышев" target="Егор Мишин" />
+      <edge id="159" source="Денис Голышев" target="Алина Никитина" />
+      <edge id="160" source="Денис Голышев" target="Антон Климов" />
+      <edge id="161" source="Денис Голышев" target="Аня Борисова" />
+      <edge id="162" source="Денис Голышев" target="Андрей Квасов" />
+      <edge id="163" source="Денис Голышев" target="Александр Косицын" />
+      <edge id="164" source="Денис Голышев" target="Андрей Минаев" />
+      <edge id="165" source="Денис Голышев" target="Илья Мишин" />
+      <edge id="166" source="Никита Хованский" target="Герман Павлов" />
+      <edge id="167" source="Никита Хованский" target="Егор Мишин" />
+      <edge id="168" source="Никита Хованский" target="Алина Никитина" />
+      <edge id="169" source="Никита Хованский" target="Антон Климов" />
+      <edge id="170" source="Никита Хованский" target="Андрей Квасов" />
+      <edge id="171" source="Никита Хованский" target="Александр Косицын" />
+      <edge id="172" source="Никита Хованский" target="Евгения Маклагина" />
+      <edge id="173" source="Никита Хованский" target="Тимур Юсубов" />
+      <edge id="174" source="Герман Павлов" target="Артём Ахрамеев" />
+      <edge id="175" source="Герман Павлов" target="Глеб Голиков" />
+      <edge id="176" source="Герман Павлов" target="Настя Флёрова" />
+      <edge id="177" source="Герман Павлов" target="Егор Мишин" />
+      <edge id="178" source="Герман Павлов" target="Антон Климов" />
+      <edge id="179" source="Герман Павлов" target="Влад Коротков" />
+      <edge id="180" source="Герман Павлов" target="Денис Клименко" />
+      <edge id="181" source="Герман Павлов" target="Аня Борисова" />
+      <edge id="182" source="Герман Павлов" target="Андрей Квасов" />
+      <edge id="183" source="Герман Павлов" target="Александр Косицын" />
+      <edge id="184" source="Герман Павлов" target="Алексей Крайс" />
+      <edge id="185" source="Герман Павлов" target="Илья Зубков" />
+      <edge id="186" source="Герман Павлов" target="Тимур Юсубов" />
+      <edge id="187" source="Павел Прокопьев" target="Данила Бараняк" />
+      <edge id="188" source="Павел Прокопьев" target="Евгений Найденов" />
+      <edge id="189" source="Павел Прокопьев" target="Глеб Голиков" />
+      <edge id="190" source="Павел Прокопьев" target="Настя Флёрова" />
+      <edge id="191" source="Павел Прокопьев" target="Андрей Шершнёв" />
+      <edge id="192" source="Павел Прокопьев" target="Алина Никитина" />
+      <edge id="193" source="Павел Прокопьев" target="Дима Жмыхов" />
+      <edge id="194" source="Павел Прокопьев" target="Иван Герасимов" />
+      <edge id="195" source="Павел Прокопьев" target="Вадим Давыдов" />
+      <edge id="196" source="Павел Прокопьев" target="Влад Коротков" />
+      <edge id="197" source="Павел Прокопьев" target="Аня Борисова" />
+      <edge id="198" source="Павел Прокопьев" target="Александр Косицын" />
+      <edge id="199" source="Павел Прокопьев" target="Анастасия Трошина" />
+      <edge id="200" source="Павел Прокопьев" target="Андрей Минаев" />
+      <edge id="201" source="Павел Прокопьев" target="Илья Мишин" />
+      <edge id="202" source="Павел Прокопьев" target="Тимур Юсубов" />
+      <edge id="203" source="Павел Прокопьев" target="Антон Климов" />
+      <edge id="204" source="Егор Мишин" target="Вадим Давыдов" />
+      <edge id="205" source="Егор Мишин" target="Влад Коротков" />
+      <edge id="206" source="Егор Мишин" target="Аня Борисова" />
+      <edge id="207" source="Егор Мишин" target="Андрей Квасов" />
+      <edge id="208" source="Егор Мишин" target="Илья Мишин" />
+      <edge id="209" source="Алина Никитина" target="Евгений Найденов" />
+      <edge id="210" source="Алина Никитина" target="Настя Флёрова" />
+      <edge id="211" source="Алина Никитина" target="Андрей Шершнёв" />
+      <edge id="212" source="Алина Никитина" target="Дима Жмыхов" />
+      <edge id="213" source="Алина Никитина" target="Антон Климов" />
+      <edge id="214" source="Алина Никитина" target="Аркадий Елин" />
+      <edge id="215" source="Алина Никитина" target="Иван Герасимов" />
+      <edge id="216" source="Алина Никитина" target="Вадим Давыдов" />
+      <edge id="217" source="Алина Никитина" target="Влад Коротков" />
+      <edge id="218" source="Алина Никитина" target="Аня Борисова" />
+      <edge id="219" source="Алина Никитина" target="Андрей Квасов" />
+      <edge id="220" source="Алина Никитина" target="Александр Косицын" />
+      <edge id="221" source="Алина Никитина" target="Илья Мишин" />
+      <edge id="222" source="Алина Никитина" target="Тимур Юсубов" />
+      <edge id="223" source="Антон Климов" target="Евгений Найденов" />
+      <edge id="224" source="Антон Климов" target="Глеб Голиков" />
+      <edge id="225" source="Антон Климов" target="Настя Флёрова" />
+      <edge id="226" source="Антон Климов" target="Андрей Шершнёв" />
+      <edge id="227" source="Антон Климов" target="Дима Жмыхов" />
+      <edge id="228" source="Антон Климов" target="Иван Герасимов" />
+      <edge id="229" source="Антон Климов" target="Вадим Давыдов" />
+      <edge id="230" source="Антон Климов" target="Аня Борисова" />
+      <edge id="231" source="Антон Климов" target="Андрей Квасов" />
+      <edge id="232" source="Антон Климов" target="Александр Косицын" />
+      <edge id="233" source="Антон Климов" target="Андрей Минаев" />
+      <edge id="234" source="Антон Климов" target="Илья Зубков" />
+      <edge id="235" source="Антон Климов" target="Илья Мишин" />
+      <edge id="236" source="Антон Климов" target="Тимур Юсубов" />
+      <edge id="237" source="Антон Климов" target="Михаил Башкин" />
+      <edge id="238" source="Аня Борисова" target="Глеб Голиков" />
+      <edge id="239" source="Аня Борисова" target="Настя Флёрова" />
+      <edge id="240" source="Аня Борисова" target="Андрей Шершнёв" />
+      <edge id="241" source="Аня Борисова" target="Дима Жмыхов" />
+      <edge id="242" source="Аня Борисова" target="Алёна Меркулова" />
+      <edge id="243" source="Аня Борисова" target="Вадим Давыдов" />
+      <edge id="244" source="Аня Борисова" target="Влад Коротков" />
+      <edge id="245" source="Аня Борисова" target="Александр Косицын" />
+      <edge id="246" source="Аня Борисова" target="Анастасия Трошина" />
+      <edge id="247" source="Аня Борисова" target="Андрей Минаев" />
+      <edge id="248" source="Аня Борисова" target="Илья Мишин" />
+      <edge id="249" source="Аня Борисова" target="Тимур Юсубов" />
+      <edge id="250" source="Аня Борисова" target="Varvara Vanina" />
+      <edge id="251" source="Андрей Квасов" target="Иван Герасимов" />
+      <edge id="252" source="Андрей Квасов" target="Влад Коротков" />
+      <edge id="253" source="Андрей Квасов" target="Александр Косицын" />
+      <edge id="254" source="Андрей Квасов" target="Андрей Минаев" />
+      <edge id="255" source="Андрей Квасов" target="Илья Мишин" />
+      <edge id="256" source="Андрей Квасов" target="Тимур Юсубов" />
+      <edge id="257" source="Александр Косицын" target="Евгений Найденов" />
+      <edge id="258" source="Александр Косицын" target="Глеб Голиков" />
+      <edge id="259" source="Александр Косицын" target="Настя Флёрова" />
+      <edge id="260" source="Александр Косицын" target="Андрей Шершнёв" />
+      <edge id="261" source="Александр Косицын" target="Иван Герасимов" />
+      <edge id="262" source="Александр Косицын" target="Вадим Давыдов" />
+      <edge id="263" source="Александр Косицын" target="Влад Коротков" />
+      <edge id="264" source="Александр Косицын" target="Андрей Минаев" />
+      <edge id="265" source="Александр Косицын" target="Илья Мишин" />
+      <edge id="266" source="Александр Косицын" target="Тимур Юсубов" />
+      <edge id="267" source="Андрей Минаев" target="Евгений Найденов" />
+      <edge id="268" source="Андрей Минаев" target="Глеб Голиков" />
+      <edge id="269" source="Андрей Минаев" target="Настя Флёрова" />
+      <edge id="270" source="Андрей Минаев" target="Андрей Шершнёв" />
+      <edge id="271" source="Андрей Минаев" target="Дима Жмыхов" />
+      <edge id="272" source="Илья Мишин" target="Настя Флёрова" />
+      <edge id="273" source="Илья Мишин" target="Андрей Шершнёв" />
+      <edge id="274" source="Илья Мишин" target="Дима Жмыхов" />
+      <edge id="275" source="Илья Мишин" target="Иван Герасимов" />
+      <edge id="276" source="Илья Мишин" target="Вадим Давыдов" />
+      <edge id="277" source="Илья Мишин" target="Влад Коротков" />
+      <edge id="278" source="Илья Мишин" target="Тимур Юсубов" />
+      <edge id="279" source="Евгения Маклагина" target="Евгений Найденов" />
+      <edge id="280" source="Евгения Маклагина" target="Oksana Burova" />
+      <edge id="281" source="Евгения Маклагина" target="Анастасия Трошина" />
+      <edge id="282" source="Евгения Маклагина" target="Иван Беляев" />
+      <edge id="283" source="Евгения Маклагина" target="Карина Афанасьева" />
+      <edge id="284" source="Евгения Маклагина" target="Виктория Мухина" />
+      <edge id="285" source="Евгения Маклагина" target="Оксана Маклагина" />
+      <edge id="286" source="Тимур Юсубов" target="Евгений Найденов" />
+      <edge id="287" source="Тимур Юсубов" target="Настя Флёрова" />
+      <edge id="288" source="Тимур Юсубов" target="Андрей Шершнёв" />
+      <edge id="289" source="Тимур Юсубов" target="Дима Жмыхов" />
+      <edge id="290" source="Тимур Юсубов" target="Иван Герасимов" />
+      <edge id="291" source="Тимур Юсубов" target="Вадим Давыдов" />
+      <edge id="292" source="Тимур Юсубов" target="Влад Коротков" />
+      <edge id="293" source="Тимур Юсубов" target="Михаил Башкин" />
+      <edge id="294" source="Builder Mystain" target="Иван Мурашов" />
+      <edge id="295" source="Builder Mystain" target="Андрей Коэн" />
+      <edge id="296" source="Артём Ахрамеев" target="Илья Зубков" />
+      <edge id="297" source="Дарья Колыхалова" target="Андрей Коэн" />
+      <edge id="298" source="Иван Мурашов" target="Андрей Коэн" />
+      <edge id="299" source="Екатерина Благовещенская" target="Мария Колеватова" />
+      <edge id="300" source="Екатерина Благовещенская" target="Мария Прошина" />
+      <edge id="301" source="Екатерина Благовещенская" target="Олег Маслов" />
+      <edge id="302" source="Екатерина Благовещенская" target="Борис Зудин" />
+      <edge id="303" source="Екатерина Благовещенская" target="Рубен Карамян" />
+      <edge id="304" source="Екатерина Благовещенская" target="Петя Артамонов" />
+      <edge id="305" source="Глеб Голиков" target="Настя Флёрова" />
+      <edge id="306" source="Глеб Голиков" target="Иван Герасимов" />
+      <edge id="307" source="Настя Флёрова" target="Андрей Шершнёв" />
+      <edge id="308" source="Настя Флёрова" target="Дима Жмыхов" />
+      <edge id="309" source="Настя Флёрова" target="Влад Коротков" />
+      <edge id="310" source="Настя Флёрова" target="Varvara Vanina" />
+      <edge id="311" source="Влад Коротков" target="Андрей Шершнёв" />
+      <edge id="312" source="Влад Коротков" target="Дима Жмыхов" />
+      <edge id="313" source="Влад Коротков" target="Иван Герасимов" />
+      <edge id="314" source="Влад Коротков" target="Вадим Давыдов" />
+      <edge id="315" source="Денис Клименко" target="Андрей Шершнёв" />
+      <edge id="316" source="Денис Клименко" target="Алексей Крайс" />
+      <edge id="317" source="Денис Клименко" target="Виктория Мухина" />
+      <edge id="318" source="Данила Бараняк" target="Евгений Найденов" />
+      <edge id="319" source="Данила Бараняк" target="Oksana Burova" />
+      <edge id="320" source="Данила Бараняк" target="Карина Афанасьева" />
+      <edge id="321" source="Евгений Найденов" target="Дима Жмыхов" />
+      <edge id="322" source="Евгений Найденов" target="Oksana Burova" />
+      <edge id="323" source="Евгений Найденов" target="Иван Герасимов" />
+      <edge id="324" source="Евгений Найденов" target="Карина Афанасьева" />
+      <edge id="325" source="Евгений Найденов" target="Виктория Мухина" />
+      <edge id="326" source="Евгений Найденов" target="Оксана Маклагина" />
+      <edge id="327" source="Oksana Burova" target="Анастасия Трошина" />
+      <edge id="328" source="Oksana Burova" target="Карина Афанасьева" />
+      <edge id="329" source="Oksana Burova" target="Виктория Мухина" />
+      <edge id="330" source="Oksana Burova" target="Оксана Маклагина" />
+      <edge id="331" source="Карина Афанасьева" target="Иван Беляев" />
+      <edge id="332" source="Карина Афанасьева" target="Виктория Мухина" />
+      <edge id="333" source="Андрей Шершнёв" target="Дима Жмыхов" />
+      <edge id="334" source="Андрей Шершнёв" target="Иван Герасимов" />
+      <edge id="335" source="Дима Жмыхов" target="Вадим Давыдов" />
+      <edge id="336" source="Дима Жмыхов" target="Varvara Vanina" />
+      <edge id="337" source="Иван Герасимов" target="Вадим Давыдов" />
+      <edge id="338" source="Анастасия Трошина" target="Оксана Маклагина" />
+      <edge id="339" source="Виктория Мухина" target="Иван Беляев" />
+      <edge id="340" source="Виктория Мухина" target="Оксана Маклагина" />
+      <edge id="341" source="Оксана Маклагина" target="Иван Беляев" />
+      <edge id="342" source="Мария Колеватова" target="Мария Прошина" />
+      <edge id="343" source="Мария Колеватова" target="Рубен Карамян" />
+      <edge id="344" source="Мария Колеватова" target="Петя Артамонов" />
+      <edge id="345" source="Мария Прошина" target="Борис Зудин" />
+      <edge id="346" source="Мария Прошина" target="Рубен Карамян" />
+      <edge id="347" source="Петя Артамонов" target="Олег Маслов" />
+      <edge id="348" source="Алёна Меркулова" target="Глеб Кучумов" />
+    </edges>
+  </graph>
+</gexf>
